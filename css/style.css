@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+body{
+    background-color: #AAAAAA;
+    margin: 0;
+}
+
+/*Esse é um comentário CSS*/
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 52px;
+    color: #FFFFFF;
+    padding-top: 10%;
+    text-shadow: #000000 2px 2px;
+
+}
+
+header{
+    display: block;
+    height: 400px;
+    text-align: center;
+    background-image: url(../img/livraria_banner_7000x3000_sem_fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menu-principal{
+    width:100%;
+    background-color: #696969;
+    height: 50px;
+}
+
+#quemsomos{
+    display: block;
+    height: 400px;
+    background-color: darkgreen;
+}
+
+#clubetraca{
+    display: block;
+    height: 400px;
+    background-color: darkseagreen;
+}
+
+#contato{
+    display: block;
+    height: 400px;
+    background-color: goldenrod;
+}
+
+h2{
+    padding-top: 18px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul{
+    display: inline-flex;
+}
+
+nav ul li{
+    display: block;
+    padding: 10px;
+}
+
+nav ul li a{
+    display: block;
+    background-color: #696969;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav ul li a:link, a:visited{
+    color: #FFFFFF;
+}
+
+nav ul li a:hover{
+    color: #000000;
+    background-color: #8a8a8a;
+}
+
+footer{
+    text-align: center;
+    padding-top: 100px;
+    height: 200px;
+    background-color: #613800;
+    color: #FFFFFF;
+}
