@@ -1,44 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
 
 body {
-    background-color: dimgrey;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+  background-color: #aaaaaa;
+  margin: 0;
 }
- h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 52px;
-    color: burlywood;
-    padding-top: 10%;
-    text-shadow: black 2px 2px;
- }
 
-header{
-    display: block;
-    background-color: royalblue;
-    height: 400px;
-    text-align: center;
+/*Esse é um comentário CSS*/
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 52px;
+  color: #ffffff;
+  padding-top: 10%;
+  text-shadow: #000000 2px 2px;
+}
 
+header {
+  display: block;
+  height: 400px;
+  text-align: center;
+  background-image: url(../img/3d-space-scene.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
-nav ul{
-    display: inline-flex;
+
+.menu-principal {
+  width: 100%;
+  background-color: #190b07;
+  height: 60px;
+  margin: auto;
+  text-align: center ;
+ 
 }
+
+#quemsomos {
+  display: block;
+  height: 400px;
+  background-color: darkgreen;
+}
+
+#clubetraca {
+  display: block;
+  height: 400px;
+  background-color: darkseagreen;
+}
+
+#contato {
+  display: block;
+  height: 400px;
+  background-color: goldenrod;
+}
+
+h2 {
+  padding-top: 18px;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav ul {
+  display: inline-flex;
+}
+
 nav ul li {
   display: block;
   padding: 10px;
-
 }
-nav ul li a:link, a:visited{
-  color: brown;
+
+nav ul li a {
   display: block;
-  background-color: gainsboro;
-  padding: 5px;
+  background-color: #190B07;
+  padding: 10px;
   text-decoration: none;
-
 }
 
-footer{
+nav ul li a:link,
+a:visited {
+  color: #ffffff;
+}
+
+nav ul li a:hover {
+  color: #000000;
+  background-color: #8a8a8a;
+}
+
+footer {
   text-align: center;
   padding-top: 100px;
   height: 200px;
-  
+  background-color: #613800;
+  color: #ffffff;
 }
