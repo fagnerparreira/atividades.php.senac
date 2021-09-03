@@ -10,8 +10,10 @@ h1 {
   font-family: "Roboto Slab", serif;
   font-size: 52px;
   color: #ffffff;
-  padding-top: 10%;
+  padding-top: 0%;
   text-shadow: #000000 2px 2px;
+  text-align: center;
+  
 }
 
 header {
@@ -31,25 +33,26 @@ header {
   height: 60px;
   margin: auto;
   text-align: center ;
+  
  
 }
 
 #quemsomos {
   display: block;
   height: 400px;
-  background-color: darkgreen;
+  background-color: #A4A4A4;
 }
 
 #clubetraca {
   display: block;
   height: 400px;
-  background-color: darkseagreen;
+  background-color: #6E6E6E;
 }
 
 #contato {
   display: block;
   height: 400px;
-  background-color: goldenrod;
+  background-color: #E6E6E6;
 }
 
 h2 {
@@ -70,7 +73,7 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  background-color: #190B07;
+  background-color: gray;
   padding: 10px;
   text-decoration: none;
 }
@@ -89,6 +92,6 @@ footer {
   text-align: center;
   padding-top: 100px;
   height: 200px;
-  background-color: #613800;
+  background-color: #08298A;
   color: #ffffff;
 }
