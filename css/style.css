@@ -6,7 +6,8 @@ body {
 }
 
 /*Esse é um comentário CSS*/
-h1 {
+
+h1 , header {
   font-family: "Roboto Slab", serif;
   font-size: 52px;
   color: #ffffff;
@@ -16,7 +17,7 @@ h1 {
   
 }
 
-header {
+header , h1{
   display: block;
   height: 400px;
   text-align: center;
@@ -25,7 +26,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-}
+} 
 
 .menu-principal {
   width: 100%;
@@ -94,4 +95,4 @@ footer {
   height: 200px;
   background-color: #08298A;
   color: #ffffff;
-}
+} */
