@@ -3,7 +3,10 @@
 body {
   background-color: #aaaaaa;
   margin: 0;
+ 
 }
+
+
 
 /*Esse é um comentário CSS*/
 
@@ -56,6 +59,18 @@ header , h1{
   background-color: #E6E6E6;
 }
 
+.caixa{
+  padding: 60px 0;
+  border: 1px solid #e5e5e5;
+  
+}
+
+.cor{
+  padding: 10px;
+  background-color: grey;
+  
+
+}
 h2 {
   padding-top: 18px;
   font-size: 28px;
@@ -89,10 +104,13 @@ nav ul li a:hover {
   background-color: #8a8a8a;
 }
 
-footer {
+footer a{
   text-align: center;
-  padding-top: 100px;
-  height: 200px;
+  /* padding-top: 100px;
+  height: 200px; */
   background-color: #08298A;
   color: #ffffff;
+  text-decoration: none ;
+  padding: 0 15px;
 } */
+
